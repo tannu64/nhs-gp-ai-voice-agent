@@ -1,0 +1,14 @@
+stateDiagram-v2
+    [*] --> Greeting
+    Greeting --> SafetyCheck
+    SafetyCheck --> Escalate: Red flag
+    SafetyCheck --> Intent
+    Intent --> FAQ
+    Intent --> Verify: Appointment or admin
+    Intent --> Escalate: Person requested
+    Verify --> Action: Pass
+    Verify --> Escalate: Fail
+    Action --> Confirm
+    Confirm --> [*]
+    FAQ --> [*]
+    Escalate --> [*]

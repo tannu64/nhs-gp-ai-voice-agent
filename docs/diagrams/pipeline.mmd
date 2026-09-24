@@ -1,0 +1,15 @@
+sequenceDiagram
+    participant P as Patient
+    participant T as Phone line
+    participant V as Voice engine
+    participant L as AI brain
+    participant M as Safety rules
+    participant E as EMIS
+    P->>T: Calls practice
+    T->>V: Audio stream
+    V->>L: Transcript
+    L->>M: Proposed action
+    M->>E: Allowed request only
+    E-->>M: Result
+    M-->>V: Reply text
+    V-->>P: Natural UK voice reply

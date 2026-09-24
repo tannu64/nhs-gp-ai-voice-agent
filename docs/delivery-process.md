@@ -2,12 +2,9 @@
 
 2026 to 2027 | [Back to README](../README.md) | [Pricing](../README.md#pricing)
 
-```mermaid
-flowchart LR
-    A["Discovery"] --> B["MVP"] --> C["Pilot"] --> D["Rollout"] --> E["Handover"]
-```
+<img src="../assets/diagrams/roadmap.png" alt="Delivery steps: demo, discovery, setup, pilot, go live" width="100%">
 
-## Phase 1: Discovery and Technical Scoping ($1,500, 1 to 2 weeks)
+## Phase 1: Discovery and Technical Scoping (£1,200, 1 to 2 weeks)
 
 | # | Deliverable |
 |---|---|

@@ -1,0 +1,17 @@
+flowchart TD
+    S["Call starts"] --> SC{"Emergency?"}
+    SC -- Yes --> E1["Play 999 / 111 message"] --> HU["Transfer to staff"]
+    SC -- No --> IN{"Why is the<br/>patient calling?"}
+    IN -- Question --> FAQ["Answer from<br/>approved FAQs"] --> END["Call ends"]
+    IN -- Appointment --> V{"Patient<br/>verified?"}
+    IN -- Prescription or admin --> V
+    IN -- Wants a person --> HU
+    V -- No --> HU
+    V -- Yes --> ACT["Book, cancel<br/>or create task"]
+    ACT --> CF["Confirm with patient"] --> END
+    classDef stop fill:#DA291C,stroke:#8A1538,color:#fff
+    classDef ok fill:#009639,stroke:#006747,color:#fff
+    classDef step fill:#005EB8,stroke:#003087,color:#fff
+    class E1,HU stop
+    class END,CF ok
+    class S,FAQ,ACT step

@@ -1,0 +1,25 @@
+# NHS GP AI Voice Agent (AI Receptionist for UK GP Practices, 2026)
+
+> A ready-to-deploy AI receptionist for UK GP surgeries. It answers patient calls 24/7 in a natural British voice, verifies patients, books, cancels and changes appointments in EMIS, handles prescription and admin requests, and transfers emergencies, clinical questions and anyone who asks for a person to reception staff. Built by Tanveer Hussain, AI voice agent engineer.
+
+## Key facts
+- Product: AI receptionist / AI voice agent for NHS GP practices
+- Country: United Kingdom
+- Clinical system: EMIS Web, through Asteroid AI or GP Connect; SystmOne and others where API access is approved
+- Status: Built and ready to deploy; live demo available on request
+- Price (GBP): Live demo free; Discovery £1,200; Single practice £5,000; Complete four-practice system £11,500; Support £450 per month; running costs about 10p to 15p per call minute
+- Example savings (four practices): about 2 full-time receptionists of phone time, about £25,000 net saving a year, payback about 5 to 6 months
+- Suitable for: GP practices, PCNs, GP federations, ICBs, out-of-hours hubs, NHS dental, community pharmacies, hospital outpatients, private GP, dental, physio, aesthetics and veterinary clinics
+- Safety: no medical advice; approved 999 / NHS 111 messaging; patient verification by name, date of birth and postcode; UK GDPR, DSPT, DPIA and DCB0129 / DCB0160 support
+- Stack: Twilio, Deepgram, Retell AI or Vapi, ElevenLabs, Claude or OpenAI, Python / FastAPI, n8n, PostgreSQL, Next.js
+
+## Contact
+- Builder: Tanveer Hussain, AI Voice Agent and Automation Engineer (Top Rated on Upwork, 100% Job Success)
+- Upwork: https://www.upwork.com/freelancers/~01a14d825a9bd8689d
+- LinkedIn: https://www.linkedin.com/in/tanveer-hussain-277119196/
+- WhatsApp: https://wa.me/923433348566
+
+## Docs
+- [README](README.md): overview, savings, pricing, FAQ
+- [Architecture](docs/architecture.md): technical design
+- [Delivery process](docs/delivery-process.md): steps from demo to go-live

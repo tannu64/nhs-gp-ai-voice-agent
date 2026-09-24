@@ -1,0 +1,23 @@
+flowchart LR
+    R["Safety Gateway"] --> A1["Emergency"]
+    R --> A2["Clinical question"]
+    R --> A3["Safeguarding"]
+    R --> A4["Vulnerable caller"]
+    R --> A5["Verification failed"]
+    R --> A6["Not understood"]
+    R --> A7["System failure"]
+    R --> A8["Asks for a person"]
+    A1 --> H["Transfer to staff"]
+    A2 --> H
+    A3 --> H
+    A4 --> H
+    A5 --> H
+    A6 --> H
+    A7 --> H
+    A8 --> H
+    classDef gate fill:#005EB8,stroke:#003087,color:#fff
+    classDef risk fill:#FFF4E5,stroke:#ED8B00,color:#5A3A00
+    classDef human fill:#DA291C,stroke:#8A1538,color:#fff
+    class R gate
+    class A1,A2,A3,A4,A5,A6,A7,A8 risk
+    class H human

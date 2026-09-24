@@ -4,23 +4,7 @@
 
 ## Call Pipeline
 
-```mermaid
-sequenceDiagram
-    participant P as Patient
-    participant T as Twilio
-    participant V as Retell / Vapi
-    participant L as LLM
-    participant M as Middleware
-    participant E as EMIS
-    P->>T: Calls practice
-    T->>V: Audio stream
-    V->>L: Transcript
-    L->>M: Proposed action
-    M->>E: Allowed API call
-    E-->>M: Result
-    M-->>V: Reply text
-    V-->>P: UK voice reply
-```
+<img src="../assets/diagrams/pipeline.png" alt="Call pipeline: patient, phone line, voice engine, AI, safety rules, EMIS" width="100%">
 
 ## Who Decides What
 
@@ -33,22 +17,7 @@ sequenceDiagram
 
 ## Call State Machine
 
-```mermaid
-stateDiagram-v2
-    [*] --> Greeting
-    Greeting --> SafetyCheck
-    SafetyCheck --> Escalate: Red flag
-    SafetyCheck --> Intent
-    Intent --> FAQ
-    Intent --> Verify: Appointment or Admin
-    Intent --> Escalate: Human requested
-    Verify --> Action: Pass
-    Verify --> Escalate: Fail
-    Action --> Confirm
-    Confirm --> [*]
-    FAQ --> [*]
-    Escalate --> [*]
-```
+<img src="../assets/diagrams/state-machine.png" alt="Call state machine for the GP AI voice agent" width="420">
 
 ## Tools
 

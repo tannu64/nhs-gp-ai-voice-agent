@@ -1,0 +1,17 @@
+flowchart LR
+    A["Patient phones<br/>the GP practice"] --> B["Phone line<br/>Twilio / SIP"]
+    B --> C["Speech to Text<br/>Deepgram"]
+    C --> D["Voice Engine<br/>Retell / Vapi"]
+    D --> E["AI Brain<br/>Claude / OpenAI"]
+    E --> F["Safety Rules<br/>Middleware"]
+    F --> G["EMIS<br/>Clinical System"]
+    F --> H["Reception Staff<br/>Human Handover"]
+    F --> I["UK Voice Reply<br/>ElevenLabs"]
+    classDef patient fill:#005EB8,stroke:#003087,color:#fff
+    classDef ai fill:#41B6E6,stroke:#005EB8,color:#003087
+    classDef safe fill:#009639,stroke:#006747,color:#fff
+    classDef human fill:#ED8B00,stroke:#8A5300,color:#fff
+    class A,I patient
+    class B,C,D,E ai
+    class F,G safe
+    class H human

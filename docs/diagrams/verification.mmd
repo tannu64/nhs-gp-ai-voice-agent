@@ -1,0 +1,10 @@
+flowchart LR
+    N["Full name"] --> D["Date of birth"] --> P["Postcode"] --> X{"One exact<br/>match?"}
+    X -- Yes --> OK["Access allowed"]
+    X -- No or several --> HU["Transfer to reception"]
+    classDef step fill:#005EB8,stroke:#003087,color:#fff
+    classDef ok fill:#009639,stroke:#006747,color:#fff
+    classDef stop fill:#DA291C,stroke:#8A1538,color:#fff
+    class N,D,P step
+    class OK ok
+    class HU stop
