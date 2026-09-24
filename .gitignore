@@ -1,0 +1,18 @@
+# This public repo is documentation only.
+# Code, n8n workflows, prompts and configs live in the PRIVATE repo.
+src/
+app/
+backend/
+dashboard/
+n8n/
+workflows/
+*.workflow.json
+prompts/
+config/
+practices/
+.env
+.env.*
+*.key
+*.pem
+node_modules/
+__pycache__/
