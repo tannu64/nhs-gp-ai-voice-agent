@@ -10,8 +10,8 @@
 
 ![Year](https://img.shields.io/badge/Year-2026--2027-blue)
 ![Status](https://img.shields.io/badge/Status-Ready_to_Deploy-brightgreen)
-![Price](https://img.shields.io/badge/From-%C2%A311%2C500-005EB8)
-![Payback](https://img.shields.io/badge/Payback-5_to_6_months-009639)
+![Price](https://img.shields.io/badge/From-%C2%A36%2C500-005EB8)
+![Payback](https://img.shields.io/badge/Payback-About_3_months-009639)
 ![Integration](https://img.shields.io/badge/Works_with-EMIS_%7C_GP_Connect-purple)
 ![Compliance](https://img.shields.io/badge/Built_for-UK_GDPR_%7C_DSPT-orange)
 
@@ -24,7 +24,7 @@
 
 ## In Short
 
-**The NHS GP AI Voice Agent is an AI receptionist for UK GP practices.** It answers the phone in a natural British voice. It books, cancels and changes appointments directly in EMIS, and handles prescription and admin requests. Emergencies, clinical questions and anyone who asks for a person always go to reception staff. One system serves several practices, which suits PCNs and GP federations. It was designed and built by **Tanveer Hussain**, an AI voice agent engineer, and costs **from £11,500** for four practices, with a typical payback of **5 to 6 months**.
+**The NHS GP AI Voice Agent is an AI receptionist for UK GP practices.** It answers the phone in a natural British voice. It books, cancels and changes appointments directly in EMIS, and handles prescription and admin requests. Emergencies, clinical questions and anyone who asks for a person always go to reception staff. One system serves several practices, which suits PCNs and GP federations. It was designed and built by **Tanveer Hussain**, an AI voice agent engineer, and costs **from £6,500** for four practices (or **£199 a month per practice** with no big upfront cost), with a typical payback of **about 3 months**. **The practice owns the system**: no lock-in and no marked-up call fees.
 
 **The system is built and ready.** Ask for a live demo and hear it take a real patient call journey.
 
@@ -39,7 +39,8 @@
 | **Works with** | EMIS Web (through Asteroid AI or GP Connect); SystmOne and others where API access is approved |
 | **Answers calls** | 24 hours a day, 7 days a week |
 | **Response speed** | About 1 to 1.5 seconds, like a normal phone call |
-| **Price** | From **£11,500** for four practices ([pricing](#how-much-does-it-cost)) |
+| **Price** | From **£6,500** for four practices, or £199 a month per practice ([pricing](#how-much-does-it-cost)) |
+| **Ownership** | You own the system and your data. No lock-in |
 | **Savings** | About 2 receptionists' worth of phone time across four practices ([savings](#how-much-money-does-it-save)) |
 | **Code** | Private, delivered to clients under contract |
 
@@ -96,10 +97,10 @@ It works in three simple steps:
 | Staff phone time saved | About 16 hours a day, or about **2 full-time receptionists** |
 | Value of staff time saved | About **£60,000 a year** |
 | AI running costs (phone line, voice, AI) | About £29,000 a year |
-| Monthly support | £5,400 a year |
-| **Net saving** | **About £25,000 a year** |
-| **One-time cost** | **£11,500** |
-| **Payback** | **About 5 to 6 months** |
+| Monthly support | £4,200 a year |
+| **Net saving** | **About £26,000 a year** |
+| **One-time cost** | **£6,500** |
+| **Payback** | **About 3 months** |
 
 **There is extra value on top of this.** Patients can cancel easily at any hour, so each practice gets back about 10 slots a week. Across four practices that is about **2,000 GP appointments a year** that other patients can use.
 
@@ -127,10 +128,23 @@ It works in three simple steps:
 
 | Option | Answers at 8am rush | Books in EMIS | Works 24/7 | Yearly cost (4 practices) |
 |---|---|---|---|---|
-| **AI voice agent (this system)** | Yes, many calls at once | Yes | Yes | About £34,000 running + £11,500 once |
+| **AI voice agent (this system)** | Yes, many calls at once | Yes | Yes | About £33,000 running + £6,500 once |
 | Hiring 2 more receptionists | Partly | Yes | No | About £60,000 |
 | Phone menu (IVR) | No, queues remain | No | Messages only | Low, but no calls resolved |
 | Callback queue | Reduces hold time only | No | No | Low, but staff still take every call |
+
+## Why Choose This Over a Subscription AI Receptionist?
+
+| | This system | Typical subscription product |
+|---|---|---|
+| **Ownership** | You own the system, scripts and data | You rent it; leaving means starting again |
+| **Call costs** | Paid to the providers at cost | Often bundled with a markup |
+| **Your rules** | Built around your practice's exact workflows | Fixed product features |
+| **Branding** | Can run under your own name (white-label) | The vendor's brand |
+| **Languages** | Can be set up for Urdu, Punjabi, Bengali, Polish and more for local communities | Depends on the product |
+| **Direct access** | You speak to the engineer who built it | Support ticket queue |
+
+**Also a good fit for health tech and telephony companies** that want their own branded AI voice agent built for them.
 
 ## How Much Does It Cost?
 
@@ -139,12 +153,25 @@ It works in three simple steps:
 | Package | What you get | Timeline | Price |
 |---|---|---|---|
 | **Live Demo** | See and hear the AI take real call journeys | 30 minutes | **Free** |
-| **Discovery** | Call-journey mapping, EMIS check, security review, business case, go-live plan | 1 to 2 weeks | **£1,200** |
-| **Single Practice** | AI receptionist for one practice: FAQs, appointments, EMIS, safety rules, testing | 3 to 4 weeks | **£5,000** |
-| **Complete System: Four Practices** | All practices, verification, escalation, prescriptions and admin, manager dashboard, pilot, rollout and staff guide | 8 to 10 weeks | **£11,500** |
-| **Monthly Support** | Monitoring, fixes, script and rule updates, monthly report | Ongoing | **£450 / month** |
+| **Discovery** | Call-journey mapping, EMIS check, security review, business case, go-live plan | 1 week | **£500** |
 
-- The Discovery fee is taken off the Complete System price if you continue.
+**Option A: Build and Own** (you own the system; pay the AI providers directly, at cost)
+
+| Package | What you get | Timeline | Price |
+|---|---|---|---|
+| **Single Practice** | AI receptionist for one practice: FAQs, appointments, EMIS, safety rules, testing | 2 to 3 weeks | **£2,500** |
+| **Complete System: Four Practices** | All practices, verification, escalation, prescriptions and admin, manager dashboard, pilot, rollout and staff guide | 6 to 8 weeks | **£6,500** |
+| **Monthly Support** | Monitoring, fixes, script and rule updates, monthly report | Ongoing | **£350 / month** |
+
+**Option B: Managed Monthly Plan** (no big upfront cost; I run everything for you)
+
+| Package | What you get | Price |
+|---|---|---|
+| **Setup** | Configuration for your practice, EMIS connection, testing | **£750 per practice, one time** |
+| **Monthly plan** | Hosting, monitoring, updates, support and monthly report | **£199 / month per practice** |
+
+- The Discovery fee is taken off the build price if you continue.
+- You can start on Option B and move to Option A later.
 - Running costs (phone line, voice and AI usage) are paid directly to the providers, usually about 10p to 15p per call minute.
 - The final price is confirmed after Discovery.
 
@@ -226,7 +253,7 @@ It is an AI phone assistant that answers patient calls, books and cancels appoin
 Yes. This system answers calls 24/7 on your existing practice number in a natural UK voice.
 
 **How much does an AI receptionist cost in the UK?**
-This system costs from £5,000 for one practice and £11,500 for four practices, plus running costs of about 10p to 15p per call minute. [See pricing](#how-much-does-it-cost).
+You can buy and own it from £2,500 for one practice or £6,500 for four practices, or use the managed plan at £750 setup plus £199 a month per practice. Running costs are about 10p to 15p per call minute, paid to the providers at cost. [See pricing](#how-much-does-it-cost).
 
 **Can an AI voice agent book GP appointments in EMIS?**
 Yes, through approved API access such as Asteroid AI or GP Connect.
@@ -241,7 +268,10 @@ Yes. It says so at the start of the call, and patients can ask for a person at a
 Yes. It uses speech recognition tuned for UK phone calls and speaks at a calm, adjustable pace.
 
 **How long does it take to set up?**
-3 to 4 weeks for one practice, and 8 to 10 weeks for four practices.
+2 to 3 weeks for one practice, and 6 to 8 weeks for four practices.
+
+**Why build my own instead of subscribing to an AI receptionist?**
+You own the system and your data, pay AI providers at cost with no markup, and get rules built around your practice. If you prefer not to pay upfront, the managed plan starts at £199 a month per practice.
 
 **Who builds AI voice agents for GP practices?**
 This system was built by Tanveer Hussain, an AI voice agent and automation engineer. He is Top Rated on Upwork with a 100% Job Success score. [Contact details](#contact).
